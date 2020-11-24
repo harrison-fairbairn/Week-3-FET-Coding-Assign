@@ -1,0 +1,11 @@
+h3, p {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+u:hover {
+    background-color: rgb(68, 141, 117);
+}

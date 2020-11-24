@@ -1,0 +1,9 @@
+If you read this, please consider my QUIZRETAKE FILE for regrading. 
+When I did that quiz, turns out my bootstrap links weren't in properly.
+Making it impossible for me to do that quiz, and I had no idea what the problem was at the time.
+
+I got it fixed with Joey, and went over the quiz again after for my own sake.
+And as you will see if you run the code on that page, I figured it out.
+Don't know if that will count for anything, but I had to try for real.
+
+Thanks!

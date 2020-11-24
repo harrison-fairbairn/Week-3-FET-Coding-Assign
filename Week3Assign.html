@@ -1,0 +1,92 @@
+<!-- 
+Create a new website using HTML and Bootstrap. 
+The website must include the following:
+A Bootstrap navbar [x] Can be found on both pages
+A Bootstrap styled table [x] Can be found on page 2
+A Bootstrap styled form [x] Found on Main page
+At least 2 pages [x]
+Bootstrap grid used throughout to format elements
+Elements should stack vertically when the window is small [x]
+-->
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 3 FET Code Assignment</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"> 
+    <link rel="stylesheet" href="Week3Assign.css">
+</head>
+<body class="container">
+
+     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <a class="navbar-brand" href="Week3Assign.html">Week 3 BootStrap</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>  
+      <div class="collapse navbar-collapse" id="navbarNavDropdown"></div>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="Week3Assign.html">Page 1</a></li>
+        <li class="nav-item">
+            <a class="nav-link" href="Week3Assign2.html">Page 2</a>
+      </li>
+        <li class="#nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" 
+            role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Menu</a>
+      </li>
+     </br>
+    </ul>
+  </nav>
+
+
+<h3>Week 3 Front End Tech Basic Bootstrap Website</h3>
+<br><br><b>
+<p style="background-color: rgb(96, 255, 131);"> On this page we will
+be focusing on the FORM part of the assignment.</p></b>
+<br><br>
+<h5><u>Tell us what you love to eat!</u> <br> 
+    Submit your answers to us so we can create a live graph!
+</h5>
+
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Name</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Your Name Here" aria-label="Usersname" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Favorite Food</span>
+  </div>
+  <input type="text" class="form-control" placeholder="Your Favorite Food Here" aria-label="Usersname" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">How much would you pay for a good rendition 
+        of your favorite food item?</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+  <div class="input-group-append">
+    <span class="input-group-text">.00</span>
+  </div>
+</div>
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+
+</body>
+</html>
+    
+
+
+
+
+
